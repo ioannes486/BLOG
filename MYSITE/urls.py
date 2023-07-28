@@ -23,4 +23,5 @@ from bookmark.views import BookmarkLV, BookmarkDV
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('bookmark/', BookmarkLV.as_view(), name='index'),
+    path('boomark/<int:pk>/', BookmarkDV.as_view(), name='detail'),
 ]

@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bookmark.apps.BookmarkConfig',
+    'blog.apps.BlogConfig'
 ]
 
 MIDDLEWARE = [
@@ -68,7 +69,7 @@ MIDDLEWARE = [
     
 ]
 
-ROOT_URLCONF = 'BLOG.urls'
+ROOT_URLCONF = 'MYSITE.urls'
 
 TEMPLATES = [
     {
@@ -86,7 +87,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'BLOG.wsgi.application'
+WSGI_APPLICATION = 'MYSITE.wsgi.application'
 
 
 # Database
